@@ -1,5 +1,5 @@
 import { PropTypes } from 'prop-types';
-import { ShopItem } from '../models/ShopItem';
+import { ShopItem } from '../models/ShopItem.js';
 
 export function ShopItemFunc(props) {
   const { item } = props;

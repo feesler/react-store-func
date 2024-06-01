@@ -1,6 +1,6 @@
 import './App.css';
-import { ShopItem } from './models/ShopItem';
-import { ShopItemFunc } from './components/ShopItemFunc';
+import { ShopItem } from './models/ShopItem.js';
+import { ShopItemFunc } from './components/ShopItemFunc.jsx';
 
 function App() {
   const item = new ShopItem({
